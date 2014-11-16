@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-Description: A menu that contains directories, pages and Apache M
+ aven projects
+Bundle-DocURL: http://www.fuin.org/
+Bundle-License: http://www.fsf.org/licensing/licenses/lgpl.html
+Bundle-ManifestVersion: 2
+Bundle-Name: maven-menu
+Bundle-SymbolicName: org.fuin.maven-menu
+Bundle-Vendor: Future Invent Informationsmanagement GmbH, Hamburg (Germa
+ ny)
+Bundle-Version: 0.1.0.SNAPSHOT
+Export-Package: org.fuin.mavenmenu;uses:="javax.validation.constraints,j
+ avax.xml.bind.annotation,org.fuin.objects4j.common";version="0.1.0.SNAP
+ SHOT"
+Import-Package: javax.validation,javax.validation.constraints,javax.xml.
+ bind.annotation,org.apache.commons.lang3;version="[3.3,4)",org.fuin.obj
+ ects4j.common;version="[0.5,1)"
+Include-Resource: .gitkeep=src/main/resources/.gitkeep

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu title="Menu" name="root">
+
+	<!-- Menu with project and pages -->
+	<menu title="A">
+		<project title="Kickstart4J" groupId="org.fuin" artifactId="kickstart4j" ci="https://fuin-org.ci.cloudbees.com/job/kickstart4j/">
+			<page title="Background" />
+			<page title="Examples" />
+		</project>
+		<page title="More" />
+	</menu>
+			
+	<!-- Nested structure -->
+	<menu title="SrcMixins4J">
+		<project title="Examples" />
+		<project title="Parent" groupId="org.fuin.srcmixins4j" artifactId="srcmixins4j-eclipse-parent" ci="https://fuin-org.ci.cloudbees.com/view/srcmixins4j/job/srcmixins4j-eclipse/">
+			<project title="Feature" groupId="org.fuin.srcmixins4j" artifactId="org.fuin.srcmixins4j.feature" />
+			<project title="Plugin" groupId="org.fuin.srcmixins4j" artifactId="org.fuin.srcmixins4j.plugin" />
+			<project title="Repository" groupId="org.fuin.srcmixins4j" artifactId="org.fuin.srcmixins4j.repository" />
+		</project>
+	</menu>
+	
+</menu>
